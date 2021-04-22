@@ -42,8 +42,8 @@ If you encountered a bug, please contact us so we can fix it promptly. We’re r
 
 [Follow updates on Twitter](https://twitter.com/quarklyapp)
 
-[dev@quarkly.io](mailto: dev@quarkly.io)
+[dev@quarkly.io](mailto:dev@quarkly.io)
 
 ## 📝 License
 
-Licensed under the [MIT License](./ LICENSE).
+Licensed under the [MIT License](./LICENSE).
