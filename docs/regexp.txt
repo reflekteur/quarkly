@@ -1,0 +1,3 @@
+( Названия свойств)|( Default  )|( Example  )|(Live demo link)|( Detailed overview)|(Components and Props)
+
+(?1 Props name)(?2 Default value )(?3 Example value )(?4Check out the live demo page 🗗)(?5 Overview)(?6Props)

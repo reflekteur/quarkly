@@ -1,56 +1,55 @@
-## 📖 Detailed overview
+## 📖 Overview
 
-Компонент показывает форму с комментариями сообщества VK.
+Adds a VK.com community comment widget.
 
-## 🎬 Live Demo
+## 🎬 Live demo
 
-[Live demo link](https://quarkly-catalog.netlify.app/vkcomment/)
+[Check out the live demo page 🗗](https://quarkly-catalog.netlify.app/vkcomment/)
 
 ## ⚙️ Usage
 
- 1. Добавьте компонент на страницу
- 2. Укажите ваш `ID приложения VK` и `ID страницы VK`
- 3. Посмотрите как он работает в режиме превью
+ 1. Add component to a page.
+ 2. Set your `VK app ID` and `VK page ID` in the Props panel.
+ 3. Click the Preview button to see how it's working!
 
-### Приложение VK
+### ☝ Note
 
-Для работы компонента необходимо создать виджет комментария на сайте VK.
-Сделать это можно по ссылке [VK Comment](https://vk.com/dev/comments)
+You need to create a comment widget first to get your `app ID`. You can do it on the official VK website: [VK Comment](https://vk.com/dev/comments)  ==⚠ Broken link==
 
 
-## 🧩 Components and Props
+## 🧩 Props
 
-| Названия свойств              |   Type    | Default |  Example  |
+| Props name | Type | Default value | Example value |
 | :---------------------------- | :-------: | :-----: | :-------: |
-| ID приложения VK              | `string`  | `none`  | `1234567` |
-| ID страницы VK                | `string`  | `none`  | `some_id` |
-| Макс. комментариев            | `number`  |   `5`   |   `20`    |
-| Автопубликация                | `boolean` | `false` |  `true`   |
-| Обновлять в реальном времени  | `boolean` | `true`  |  `false`  |
-| Ссылка на страницу с виджетом | `string`  |   `-`   |    `-`    |
-| Добавлять граффити            | `boolean` | `true`  |  `false`  |
-| Добавлять фотографии          | `boolean` | `true`  |  `false`  |
-| Добавлять аудио               | `boolean` | `true`  |  `false`  |
-| Добавлять видео               | `boolean` | `true`  |  `false`  |
-| Добавлять ссылки              | `boolean` | `true`  |  `false`  |
+| VK app ID | `string` | `none` | `1234567` |
+| VK page ID | `string` | `none` | `some_id` |
+| Max comments | `number` | `5` | `20` |
+| Autopublishing | `boolean` | `false` | `true` |
+| Update in real time? | `boolean` | `true` | `false` |
+| URL of the page, containing the widget | `string` | `-` | `-` |
+| Add graffiti? | `boolean` | `true` | `false` |
+| Add photos? | `boolean` | `true` | `false` |
+| Add audio? | `boolean` | `true` | `false` |
+| Add video? | `boolean` | `true` | `false` |
+| Add links? | `boolean` | `true` | `false` |
 
 ## 🗓 Changelog
 
- - 21/04/2021 (v1.0)
- - Первая версия
+* 21/04/2021 (v1.0)
+  * First version
 
 ## 📮 Feedback
 
-If you encountered a bug, please contact us so we can fix it promptly. We’re rapidly developing, so don’t hesitate to send us your feedback and request new features you would like to see added. Feel free to share what you’re working on - we **love** to see what you’re building with Quarkly!
+If you encountered a bug, please contact us so we can fix it promptly. We’re rapidly developing, so don’t hesitate to send us your feedback and [request new features](https://community.quarkly.io/c/requests/11) you would like to see added. Feel free to share what you’re working on - we **love** to see what you’re building with Quarkly!
 
-[Help with components](https://community.quarkly.io/c/requests/11)
+[Join the official Quarkly community](https://community.quarkly.io/)
 
-[We're on Discord](https://discord.gg/f9KhSMGX)
+[Reach us on Discord](https://discord.gg/f9KhSMGX)
 
-[Our Twitter](https://twitter.com/quarklyapp)
+[Follow updates on Twitter](https://twitter.com/quarklyapp)
 
-[dev@quarkly.io](mailto:dev@quarkly.io)
+[dev@quarkly.io](mailto: dev@quarkly.io)
 
 ## 📝 License
 
-Licensed under the [MIT License](./LICENSE).
+Licensed under the [MIT License](./ LICENSE).

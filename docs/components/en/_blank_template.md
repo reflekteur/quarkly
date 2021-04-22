@@ -1,36 +1,29 @@
 ## 📖 Overview
 
-Adds a Facebook comment widget.
+Adds something on a page.
 
 ## 🎬 Live demo
 
-[Check out the live demo page 🗗](https://quarkly-catalog.netlify.app/fbcomments/)
+[Check out the live demo page 🗗](https://quarkly-catalog.netlify.app/vkcomment/)
 
 ## ⚙️ Usage
+
  1. Add component to a page.
- 2. Set the `Facebook app ID`
- 3. Set the `Comments link`
+ 2. ?????
+ 3. Click the Preview button to see how it's working!
 
-### ☝ Note
-
-You need to create a Facebook app first. You can do it on the official website: [Facebook App](https://developers.facebook.com/apps)
-
-### Changing properties in the editor
-
-You might have to update the editor canvas or your browser tab for property changes to appear in the editor.
 
 ## 🧩 Props
 
-| Props name             |   Type   |  Default value |
-| :--------------------------- | :------: | :-------: |
-| Facebook app ID       | `number` |    `-`    |
-| Comments link        | `number` |    `-`    |
-| Language |  `enum`  | `English` |
+| Props name | Type | Default value | Example value |
+| :---------------------------- | :-------: | :-----: | :-------: |
+| Property | `string` | `none` | `Hello World!` |
+| Add boolean? | `boolean` | `true` | `false` |
 
 ## 🗓 Changelog
 
  - 21/04/2021 (v1.0)
-   - First version
+    - First version
 
 ## 📮 Feedback
 

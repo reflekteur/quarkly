@@ -40,16 +40,16 @@ You can choose one of the following values:
 
 ## 📮 Feedback
 
-If you encountered a bug, please contact us so we can fix it promptly. We’re rapidly developing, so don’t hesitate to send us your feedback and request new features you can’t stand missing. Feel free to share what you’re working on - we **love** to see what you’re building with Quarkly!
+If you encountered a bug, please contact us so we can fix it promptly. We’re rapidly developing, so don’t hesitate to send us your feedback and [request new features](https://community.quarkly.io/c/requests/11) you would like to see added. Feel free to share what you’re working on - we **love** to see what you’re building with Quarkly!
 
-[Help with components](https://community.quarkly.io/c/requests/11)
+[Join the official Quarkly community](https://community.quarkly.io/)
 
-[We're on Discord](https://discord.gg/f9KhSMGX)
+[Reach us on Discord](https://discord.gg/f9KhSMGX)
 
-[Our Twitter](https://twitter.com/quarklyapp)
+[Follow updates on Twitter](https://twitter.com/quarklyapp)
 
-[dev@quarkly.io](mailto:dev@quarkly.io)
+[dev@quarkly.io](mailto: dev@quarkly.io)
 
 ## 📝 License
 
-Licensed under the [MIT License](./LICENSE).
+Licensed under the [MIT License](./ LICENSE).

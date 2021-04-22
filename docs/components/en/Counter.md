@@ -1,52 +1,54 @@
-## 📖 Detailed overview
+## 📖 Overview
 
-Компонент представляет из себя счетчик, который увеличивается или уменьшается до определенного значения.
+Adds a counter that increases or decreases to a certain value.
 
-## 🎬 Live Demo
+## 🎬 Live demo
 
-[Live demo link](https://quarkly-catalog.netlify.app/counter/)
+[Check out the live demo page 🗗](https://quarkly-catalog.netlify.app/counter/)
 
 ## ⚙️ Usage
 
-Добавьте компонент на страницу и посмотрите в режиме превью.
+  1. Add component to a page.
+  2. Click the Preview button to see how it's working!
 
-### Начальное и конечное значение
+### Initial and final values
 
-Значения в параметрах `Начальное число` и `Конечное число` можно задать как положительными, так и отрицательными. Важно, чтобы начальное значение было меньше конечного.
-В случае, если нужен обратный отсчет, выберите значение `Убывание` в свойстве `Направление отсчёта`, тогда начальное значение станет конечным, а конечное начальным.
+The values for `Initial value` and `Final value` can be positive or negative. But it's important that the starting number is smaller than the ending number.
 
-### Запуск счетчика
+If you need to count _down_, select `Descending` in the `Direction` property. This way the initial value will become the final value and vice versa. 
 
-Счетчик запустится атоматически, когда попадёт в поле видимости окна.
+### Trigger
 
-## 🧩 Components and Props
+The counter will start automatically as soon as it comes into view.
 
-| Названия свойств      |   Type   | Default  | Example |
+## 🧩 Props
+
+| Props name      |   Type   | Default value | Example value |
 | :-------------------- | :------: | :------: | :-----: |
-| Начальное значение    | `number` |   `0`    |  `-43`  |
-| Конечное значение     | `number` |  `100`   |  `300`  |
-| Направление отсчёта   |  `enum`  | `normal` | `true`  |
-| Длительность отсчёта  | `number` |  `2000`  | `3000`  |
-| Текст после значения  | `string` |   `-`    |   `%`   |
-| Текст перед значением | `string` |   `-`    |   `$`   |
+| Initial value    | `number` |   `0`    |  `-43`  |
+| Final value     | `number` |  `100`   |  `300`  |
+| Direction   |  `enum`  | `normal` | `Descending`  |
+| Duration (in ms)  | `number` |  `2000`  | `3000`  |
+| Text after the value   | `string` |   `-`    |   `%`   |
+| Text in front of the value | `string` |   `-`    |   `$`   |
 
 ## 🗓 Changelog
 
  - 21/04/2021 (v1.0)
- - Первая версия
+   - First version
 
 ## 📮 Feedback
 
-If you encountered a bug, please contact us so we can fix it promptly. We’re rapidly developing, so don’t hesitate to send us your feedback and request new features you would like to see added. Feel free to share what you’re working on - we **love** to see what you’re building with Quarkly!
+If you encountered a bug, please contact us so we can fix it promptly. We’re rapidly developing, so don’t hesitate to send us your feedback and [request new features](https://community.quarkly.io/c/requests/11) you would like to see added. Feel free to share what you’re working on - we **love** to see what you’re building with Quarkly!
 
-[Help with components](https://community.quarkly.io/c/requests/11)
+[Join the official Quarkly community](https://community.quarkly.io/)
 
-[We're on Discord](https://discord.gg/f9KhSMGX)
+[Reach us on Discord](https://discord.gg/f9KhSMGX)
 
-[Our Twitter](https://twitter.com/quarklyapp)
+[Follow updates on Twitter](https://twitter.com/quarklyapp)
 
-[dev@quarkly.io](mailto:dev@quarkly.io)
+[dev@quarkly.io](mailto: dev@quarkly.io)
 
 ## 📝 License
 
-Licensed under the [MIT License](./LICENSE).
+Licensed under the [MIT License](./ LICENSE).
